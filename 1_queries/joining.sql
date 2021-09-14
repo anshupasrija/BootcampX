@@ -14,3 +14,4 @@ ORDER BY cohorts.start_date;
 
 -- An INNER JOIN will only return results where there is a match between the two tables.
 -- An OUTER JOIN will do the same as an INNER JOIN but also returns unmatched rows in one or both tables. An OUTER JOIN can be LEFT, RIGHT, or FULL.
+--Left outer join produces a complete set of records from Table A, with the matching records (where available) in Table B. If there is no match, the right side will contain null.
