@@ -4,7 +4,7 @@
 -- Order the results from greatest duration to least greatest duration.
 -- A student will have a null end_date if they are currently enrolled
 
-SELECT students.name as student, avg(assignment_submissions.duration) as average_time
+SELECT students.name as student, avg(assignment_submissions.duration) as average_assignment_duration, avg()
 FROM students
 JOIN assignment_submissions ON student_id = students.id
 WHERE end_date IS NULL
