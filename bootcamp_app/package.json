@@ -4,7 +4,7 @@
   "description": "",
   "main": "students.js",
   "scripts": {
-    "start": "node teachers.js"
+    "start": "node students.js"
   },
   "keywords": [],
   "author": "",
